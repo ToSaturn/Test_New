@@ -1,0 +1,91 @@
+.date {
+  background-color: #efefef;
+  width: 99%;
+  height: 31px;
+  border-radius: 8px;
+  margin-top: 20px;
+  padding: 13px 0 0 13px;
+  color: #423c3c;
+  font-family: sans-serif;
+}
+
+.event {
+  width: 100%;
+  background-color: white;
+  height: 150px;
+  border-bottom: 1px solid #8e8e93;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon img:last-child {
+  margin-left: -21%;
+}
+
+.event__time {
+  width: 230px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.time {
+  font-size: 17px;
+  margin: 5px 13px 0 0;
+}
+
+.event__content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.event__info {
+  height: 100%;
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 40px;
+}
+
+.icon {
+  width: 95px;
+  height: 100%;
+  display: flex;
+  margin-left: 1%;
+}
+
+.content_info {
+  margin-top: 53px;
+  width: 100%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.content_info p {
+  margin-top: 10px;
+}
+
+.day {
+  width: 80px;
+}
+
+.flag {
+  display: contents;
+}
+
+.lesson {
+  width: 75px;
+  margin-top: 50px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+div .event:nth-child(4),
+div .event:last-child {
+  border-bottom: none;
+}

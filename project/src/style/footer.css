@@ -1,0 +1,22 @@
+.footer_logo {
+  width: 200px;
+  margin-left: 3%;
+  margin-right: 5%;
+  padding-top: 22px;
+}
+
+.footer_nav a {
+  padding-bottom: 15px;
+  color: black;
+}
+
+.footer_contact {
+  width: 100%;
+  font-size: 18px;
+  padding: 13px 0 0 23%;
+  color: #8e8e93;
+}
+
+.content_info a {
+  color: #103d97;
+}
